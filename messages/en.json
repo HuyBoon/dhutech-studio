@@ -1,0 +1,211 @@
+{
+	"header": {
+		"contact": "Contact",
+		"lang": {
+			"vi": "VN",
+			"en": "EN"
+		},
+		"menu": {
+			"home": "Home",
+			"webDesign": "Web Design",
+			"templates": "Templates",
+			"blog": "Blog",
+			"about": "About Us",
+			"contact": "Contact",
+			"webDesignItems": {
+				"travel": "Travel Website Design",
+				"ecommerce": "E-commerce Website Design",
+				"business": "Business Website Design",
+				"realEstate": "Real Estate Website Design",
+				"restaurant": "Restaurant & Hotel Website Design",
+				"school": "School Website Design",
+				"news": "News & Blog Website Design",
+				"custom": "Custom Website Design"
+			}
+		},
+		"button": {
+			"contact": "Contact"
+		}
+	},
+	"Banner": {
+		"title": "Create your own website",
+		"subtitle": "Innovative website solutions to elevate your business.",
+		"buttonText": "Get Started",
+		"buttonLink": "/contact",
+		"imageAlt": "DHU Tech Collections"
+	},
+	"BenefitsSection": {
+		"title": "Why You Need a Website",
+		"subtitle": "Discover the key advantages of owning a professional website for your business.",
+		"benefits": {
+			"reachCustomers": {
+				"title": "Expand Customer Reach",
+				"description": "Build relationships with customers online, expand your online store, and manage orders and shipping easily."
+			},
+			"improveAds": {
+				"title": "Improve Advertising Efficiency",
+				"description": "Increase sales, optimize your website for better traffic, and save on advertising costs."
+			},
+			"buildReputation": {
+				"title": "Build Brand Reputation",
+				"description": "Create a professional e-commerce website with a stunning design to enhance trust and credibility."
+			},
+			"support24_7": {
+				"title": "24/7 Customer Support",
+				"description": "Allow customers to view and order anytime, with 24/7 support on your website."
+			}
+		}
+	},
+	"WhyChooseUs": {
+		"title": "Why Choose DHU Tech?",
+		"subtitle": "Discover what sets DHU Tech apart as your ideal technology partner.",
+		"reasons": {
+			"expertise": {
+				"title": "Expertise You Can Trust",
+				"description": "Years of experience delivering top-tier tech solutions tailored to your needs."
+			},
+			"innovation": {
+				"title": "Cutting-Edge Innovation",
+				"description": "Leverage the latest technologies to stay ahead in a competitive market."
+			},
+			"support": {
+				"title": "24/7 Dedicated Support",
+				"description": "Round-the-clock assistance to ensure your success at every step."
+			}
+		}
+	},
+	"IndustrySolutions": {
+		"title": "DHUTECH Templates",
+		"subtitle": "Build your professional website with sleek and modern design templates.",
+		"industries": {
+			"travel": {
+				"title": "Travel",
+				"description": "Custom travel booking platforms."
+			},
+			"education": {
+				"title": "Education",
+				"description": "Interactive e-learning systems."
+			},
+			"beauty": {
+				"title": "Beauty",
+				"description": "Online beauty product showcases."
+			},
+			"realEstate": {
+				"title": "Real Estate",
+				"description": "Property listing websites."
+			},
+			"ecommerce": {
+				"title": "E-commerce",
+				"description": "Robust online stores."
+			},
+			"health": {
+				"title": "Health",
+				"description": "Medical appointment schedulers."
+			},
+			"construction": {
+				"title": "Construction",
+				"description": "Project management portals."
+			},
+			"fitness": {
+				"title": "Fitness",
+				"description": "Workout plan trackers."
+			}
+		},
+		"templates": {
+			"template1": {
+				"title": "Modern Travel Template",
+				"description": "A sleek design for travel agencies with booking integration."
+			},
+			"template2": {
+				"title": "Educational Platform Template",
+				"description": "A user-friendly layout for online courses and resources."
+			},
+			"template3": {
+				"title": "Beauty E-Store Template",
+				"description": "An elegant design for beauty product sales."
+			},
+			"template4": {
+				"title": "Real Estate Listing Template",
+				"description": "A professional layout for property listings."
+			}
+		}
+	},
+	"Criteria": {
+		"title": "Our Core Criteria",
+		"criteria": {
+			"quality": {
+				"content": "We ensure top-notch quality in every product and service we deliver."
+			},
+			"innovation": {
+				"content": "We embrace cutting-edge technology to drive your success."
+			},
+			"support": {
+				"content": "Our team provides 24/7 support to meet your needs anytime."
+			},
+			"affordability": {
+				"content": "High-value solutions at competitive prices for all businesses."
+			}
+		}
+	},
+	"WebsiteDesignProcess": {
+		"title": "DHUTECH Website Design Process",
+		"description": "Discover the structured approach DHUTECH takes to create your perfect website, from initial consultation to final delivery, ensuring a tailored and seamless experience.",
+		"steps": {
+			"understand": {
+				"content": "The DHUTECH consulting team will arrange a meeting to understand your website feature requirements and goals, providing tailored solutions and a design plan."
+			},
+			"contract": {
+				"content": "After agreeing on the implementation plan, signing a contract ensures all terms are clearly documented for legal protection of both parties."
+			},
+			"design": {
+				"content": "Based on your requirements, DHUTECH will visualize the interface, offering a demo for feedback and finalizing the design before development."
+			},
+			"development": {
+				"content": "DHUTECH developers will transform the approved design into a fully functional website with stable, interactive features."
+			},
+			"demo": {
+				"content": "We provide a demo on a test environment for your review, with our team refining and optimizing based on your feedback."
+			},
+			"delivery": {
+				"content": "The final step is handing over the website for live operation, with ongoing DHUTECH support for maintenance and upgrades."
+			}
+		}
+	},
+	"Pricing": {
+		"title": "Pricing Plans",
+		"plans": {
+			"basic": {
+				"name": "Basic"
+			},
+			"pro": {
+				"name": "Pro"
+			},
+			"enterprise": {
+				"name": "Enterprise"
+			}
+		}
+	},
+	"Blog": {
+		"title": "Latest Blog Posts"
+	},
+	"TechStack": {
+		"title": "Tech Stack for Learning",
+		"subtitle": "Explore websites built with modern technologies"
+	},
+	"CallToAction": {
+		"title": "Ready to Boost Your Online Presence?",
+		"subtitle": "Contact DHUTECH today for a free consultation and custom website design.",
+		"buttonText": "Contact",
+		"buttonLink": "/contact"
+	},
+	"Footer": {
+		"title": "Footer",
+		"description": "Innovative website solutions by DHUTECH.",
+		"navTitle": "Navigation",
+		"contactTitle": "Contact Us",
+		"phone": "+1-123-456-7890",
+		"email": "info@dhutech.com",
+		"socialTitle": "Follow Us",
+		"copyright": "DHUTECH. All rights reserved."
+	}
+}

@@ -1,0 +1,211 @@
+{
+	"header": {
+		"contact": "Liên hệ",
+		"lang": {
+			"vi": "VN",
+			"en": "EN"
+		},
+		"menu": {
+			"home": "Trang chủ",
+			"webDesign": "Thiết kế website",
+			"templates": "Kho giao diện",
+			"blog": "Blog",
+			"about": "Giới thiệu",
+			"contact": "Liên hệ",
+			"webDesignItems": {
+				"travel": "Thiết kế website du lịch",
+				"ecommerce": "Thiết kế website bán hàng",
+				"business": "Thiết kế website doanh nghiệp",
+				"realEstate": "Thiết kế website bất động sản",
+				"restaurant": "Thiết kế website nhà hàng - khách sạn",
+				"school": "Thiết kế website trường học",
+				"news": "Thiết kế website tin tức - blog",
+				"custom": "Thiết kế website theo yêu cầu"
+			}
+		},
+		"button": {
+			"contact": "Liên hệ"
+		}
+	},
+	"Banner": {
+		"title": "Chào Mừng Đến Với DHU Tech Connections",
+		"subtitle": "Giải pháp website sáng tạo để nâng tầm doanh nghiệp của bạn.",
+		"buttonText": "Liên hệ tư vấn",
+		"buttonLink": "/lien-he",
+		"imageAlt": "Bộ Sưu Tập DHU Tech"
+	},
+	"BenefitsSection": {
+		"title": "Tại Sao Bạn Cần Một Website",
+		"subtitle": "Khám phá những lợi ích quan trọng khi sở hữu một website chuyên nghiệp cho doanh nghiệp của bạn.",
+		"benefits": {
+			"reachCustomers": {
+				"title": "Mở rộng khả năng tiếp cận khách hàng",
+				"description": "Xây dựng mối quan hệ với khách hàng trực tuyến, mở rộng cửa hàng online, dễ dàng quản lý đơn hàng, vận chuyển."
+			},
+			"improveAds": {
+				"title": "Tăng hiệu quả hoạt động quảng cáo",
+				"description": "Nâng cao doanh số bán hàng, tối ưu hóa website để tăng traffic, tiết kiệm chi phí quảng cáo."
+			},
+			"buildReputation": {
+				"title": "Xây dựng uy tín thương hiệu",
+				"description": "Tạo website bán hàng chuyên nghiệp với giao diện đẹp, tăng mức độ tin cậy và uy tín thương hiệu."
+			},
+			"support24_7": {
+				"title": "Hỗ trợ chăm sóc khách hàng 24/7",
+				"description": "Khách hàng có thể xem và đặt hàng bất cứ lúc nào trong ngày, hỗ trợ tư vấn cho khách hàng 24/7 trên website."
+			}
+		}
+	},
+	"WhyChooseUs": {
+		"title": "Tại Sao Chọn DHU Tech?",
+		"subtitle": "Khám phá điều gì làm DHU Tech trở thành đối tác công nghệ lý tưởng của bạn.",
+		"reasons": {
+			"expertise": {
+				"title": "Kinh Nghiệm Bạn Có Thể Tin Cậy",
+				"description": "Nhiều năm kinh nghiệm cung cấp các giải pháp công nghệ hàng đầu được tùy chỉnh theo nhu cầu của bạn."
+			},
+			"innovation": {
+				"title": "Đổi Mới Tiên Phong",
+				"description": "Tận dụng công nghệ tiên tiến nhất để dẫn đầu trên thị trường cạnh tranh."
+			},
+			"support": {
+				"title": "Hỗ Trợ 24/7 Chuyên Dành",
+				"description": "Hỗ trợ liên tục 24/7 để đảm bảo thành công của bạn ở mọi bước đường."
+			}
+		}
+	},
+	"IndustrySolutions": {
+		"title": "Giao diện nổi bật",
+		"subtitle": "Các mẫu website chuyên nghiệp và hiện đại được thiết kế bởi DHUTECH.",
+		"industries": {
+			"travel": {
+				"title": "Du Lịch",
+				"description": "Nền tảng đặt tour du lịch tùy chỉnh."
+			},
+			"education": {
+				"title": "Giáo Dục",
+				"description": "Hệ thống học trực tuyến tương tác."
+			},
+			"beauty": {
+				"title": "Làm Đẹp",
+				"description": "Gian hàng sản phẩm làm đẹp trực tuyến."
+			},
+			"realEstate": {
+				"title": "Bất Động Sản",
+				"description": "Website liệt kê bất động sản."
+			},
+			"ecommerce": {
+				"title": "Thương Mại Điện Tử",
+				"description": "Cửa hàng trực tuyến mạnh mẽ."
+			},
+			"health": {
+				"title": "Sức Khỏe",
+				"description": "Lịch hẹn khám bệnh trực tuyến."
+			},
+			"construction": {
+				"title": "Xây Dựng",
+				"description": "Cổng quản lý dự án."
+			},
+			"fitness": {
+				"title": "Thể Dục",
+				"description": "Theo dõi kế hoạch tập luyện."
+			}
+		},
+		"templates": {
+			"template1": {
+				"title": "Mẫu Du Lịch Hiện Đại",
+				"description": "Thiết kế tinh tế cho các công ty du lịch với tích hợp đặt chỗ."
+			},
+			"template2": {
+				"title": "Mẫu Nền Tảng Giáo Dục",
+				"description": "Bố cục thân thiện với người dùng cho khóa học và tài nguyên trực tuyến."
+			},
+			"template3": {
+				"title": "Mẫu Cửa Hàng Làm Đẹp",
+				"description": "Thiết kế thanh lịch cho việc bán sản phẩm làm đẹp."
+			},
+			"template4": {
+				"title": "Mẫu Liệt Kê Bất Động Sản",
+				"description": "Bố cục chuyên nghiệp cho việc liệt kê bất động sản."
+			}
+		}
+	},
+	"Criteria": {
+		"title": "Tiêu Chí Cốt Lõi Của Chúng Tôi",
+		"criteria": {
+			"quality": {
+				"content": "Chúng tôi đảm bảo chất lượng hàng đầu cho mọi sản phẩm và dịch vụ."
+			},
+			"innovation": {
+				"content": "Chúng tôi ứng dụng công nghệ tiên tiến để thúc đẩy thành công của bạn."
+			},
+			"support": {
+				"content": "Đội ngũ của chúng tôi hỗ trợ 24/7 để đáp ứng nhu cầu của bạn bất cứ lúc nào."
+			},
+			"affordability": {
+				"content": "Các giải pháp giá trị cao với giá cả cạnh tranh cho mọi doanh nghiệp."
+			}
+		}
+	},
+	"Pricing": {
+		"title": "Bảng Giá",
+		"plans": {
+			"basic": {
+				"name": "Cơ Bản"
+			},
+			"pro": {
+				"name": "Nâng Cao"
+			},
+			"enterprise": {
+				"name": "Doanh Nghiệp"
+			}
+		}
+	},
+	"WebsiteDesignProcess": {
+		"title": "Quy Trình Thiết Kế Website tại DHUTECH",
+		"description": "Khám phá quy trình có cấu trúc mà DHUTECH áp dụng để tạo ra website hoàn hảo cho bạn, từ tư vấn ban đầu đến bàn giao cuối cùng, đảm bảo trải nghiệm được cá nhân hóa và liền mạch.",
+		"steps": {
+			"understand": {
+				"content": "Đội ngũ chuyên viên tư vấn của DHUTECH sẽ sắp xếp meeting để lắng nghe yêu cầu, mong muốn về tính năng website. Dựa trên mục tiêu, chúng tôi tư vấn giải pháp phù hợp và lên kế hoạch thiết kế."
+			},
+			"contract": {
+				"content": "Sau khi thống nhất giải pháp, ký hợp đồng đảm bảo mọi thỏa thuận được ghi nhận rõ ràng, minh bạch, bảo vệ quyền lợi đôi bên."
+			},
+			"design": {
+				"content": "Dựa trên yêu cầu của bạn, DHUTECH sẽ hiện thực hóa và trực quan hóa giao diện, cung cấp demo để phản hồi và chốt thiết kế cuối cùng trước lập trình."
+			},
+			"development": {
+				"content": "Đội ngũ developer của DHUTECH sẽ hiện thực hóa thiết kế thành website thực sự, đảm bảo các tính năng cam kết hoạt động ổn định."
+			},
+			"demo": {
+				"content": "Chúng tôi gửi demo trên môi trường thử nghiệm để bạn trải nghiệm và phản hồi, đội ngũ tinh chỉnh để đáp ứng yêu cầu."
+			},
+			"delivery": {
+				"content": "Sau khi hoàn thiện, bàn giao website để vận hành thực tế, với sự hỗ trợ bảo trì và nâng cấp từ DHUTECH."
+			}
+		}
+	},
+	"Blog": {
+		"title": "Bài Viết Mới Nhất"
+	},
+	"TechStack": {
+		"title": "Công Nghệ Hỗ Trợ Học Tập",
+		"subtitle": "Khám phá website được xây dựng với công nghệ hiện đại"
+	},
+	"CallToAction": {
+		"title": "Sẵn sàng Tăng Cường Sự Hiện Diện Trực Tuyến?",
+		"subtitle": "Liên hệ DHUTECH ngay hôm nay để được tư vấn miễn phí và thiết kế website tùy chỉnh.",
+		"buttonText": "Liên hệ tư vấn",
+		"buttonLink": "/lien-he"
+	},
+	"Footer": {
+		"title": "Chân Trang",
+		"description": "Giải pháp website sáng tạo bởi DHUTECH.",
+		"navTitle": "Điều Hướng",
+		"contactTitle": "Liên Hệ",
+		"phone": "+84-123-456-789",
+		"email": "info@dhutech.vn",
+		"socialTitle": "Theo Dõi Chúng Tôi",
+		"copyright": "DHUTECH. Bản quyền thuộc về."
+	}
+}
