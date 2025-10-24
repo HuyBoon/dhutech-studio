@@ -11,7 +11,7 @@ export default function GuestLayout({
     return (
         <>
             <DeafaultHeader />
-            <main className="pt-[70px] min-h-screen">{children}</main>
+            <main className="pt-[80px] min-h-screen">{children}</main>
         </>
     );
 }

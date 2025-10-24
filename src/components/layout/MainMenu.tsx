@@ -80,14 +80,12 @@ export default function MainMenu() {
                         onMouseLeave={handleMouseLeave}
                     >
                         <button
-                            className={`hover:text-btn  text-lg uppercase flex items-center gap-1 transition-colors duration-200 ${
+                            className={`hover:text-primary-text  text-lg uppercase flex items-center gap-1 transition-colors duration-200 ${
                                 item.subMenu
                                     ? "cursor-default"
                                     : "cursor-pointer"
                             }`}
-                            onClick={() =>
-                                !item.subMenu && handleNavigate(item.path)
-                            }
+                            onClick={() => handleNavigate(item.path)}
                         >
                             <span>{item.name}</span>
                             {item.subMenu && (
@@ -103,11 +101,11 @@ export default function MainMenu() {
                         </button>
 
                         {item.subMenu && visibleSubMenu === item.name && (
-                            <ul className="absolute left-0 mt-2 w-60 bg-white text-black shadow-xl rounded-lg overflow-hidden border border-gray-100 z-50">
+                            <ul className="absolute left-0 mt-2 w-80 bg-white text-black shadow-xl rounded-lg overflow-hidden border border-gray-100 z-50">
                                 {item.subMenu.map((subItem) => (
                                     <li key={subItem.name}>
                                         <button
-                                            className="block w-full text-left px-4 py-2 text-sm hover:bg-primary-2 hover:text-primary transition-colors"
+                                            className="block w-full text-left px-4 py-2 text-md hover:text-secondary  transition-colors"
                                             onClick={() =>
                                                 handleNavigate(subItem.path)
                                             }

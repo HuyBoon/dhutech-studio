@@ -3,6 +3,7 @@ import BenefitsSection from "@/components/layout/BenefitsSection";
 import BlogSection from "@/components/layout/BlogSection";
 import CallToActionSection from "@/components/layout/CallToActionSection";
 import CriteriaSection from "@/components/layout/CriteriaSection";
+import Feedback from "@/components/layout/Feedback";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import IndustrySolutionsSection from "@/components/layout/IndustrySolutionsSection";
@@ -23,12 +24,13 @@ export default function Home() {
             <CriteriaSection />
             <TechStackSection />
             <BlogSection />
-            <div className="relative z-20 mb-[-5%]">
+            <Feedback />
+            {/* <div className="relative z-20 mb-[-5%]">
                 <CallToActionSection />
             </div>
             <div className="relative z-10 ">
                 <Footer />
-            </div>
+            </div> */}
         </section>
     );
 }

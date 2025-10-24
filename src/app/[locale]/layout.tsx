@@ -7,6 +7,8 @@ import { routing } from "@/i18n/routing";
 import { Playfair_Display, Lora } from "next/font/google";
 import { Toaster } from "sonner";
 import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
+import CallToActionSection from "@/components/layout/CallToActionSection";
+import Footer from "@/components/layout/Footer";
 
 const playfair = Playfair_Display({
     subsets: ["latin", "vietnamese"],
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
         title: "DHUTECH",
         description:
             "Innovative solutions for website design, landing pages, and SEO optimization.",
-        url: "https://dhutech.com",
+        url: "https://dhutech-studio.vercel.app/vi",
         siteName: "DHUTECH",
         images: [
             {
@@ -79,6 +81,12 @@ export default async function LocaleLayout({
             <body className={`${fontClass}`}>
                 <NextIntlClientProvider locale={localeRaw} messages={messages}>
                     <main>{children}</main>
+                    <div className="relative z-20 mb-[-5%]">
+                        <CallToActionSection />
+                    </div>
+                    <div className="relative z-10 ">
+                        <Footer />
+                    </div>
                     <ScrollToTopButton />
                     <Toaster position="top-right" theme="light" richColors />
                 </NextIntlClientProvider>

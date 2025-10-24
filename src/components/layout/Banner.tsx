@@ -56,7 +56,7 @@ const BannerSection = () => {
                     {/* <h2 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-primary mb-6 leading-tight">
                         Create <br /> your own <br /> website
                     </h2> */}
-                    <h2 className="min-h-[300px] text-4xl sm:text-5xl lg:text-7xl font-extrabold text-primary mb-6 leading-tight">
+                    <h2 className="min-h-[300px] text-4xl sm:text-5xl lg:text-7xl font-extrabold text-primary-text mb-6 leading-tight">
                         <TypeAnimation
                             sequence={[
                                 "Create", // Gõ dòng 1
