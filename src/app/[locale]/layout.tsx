@@ -25,7 +25,27 @@ const lora = Lora({
 export const metadata: Metadata = {
     title: "DHUTECH | Website Design & SEO Solutions",
     description:
-        "DHUTECH offers innovative solutions for website design, landing page creation, and SEO optimization to boost your digital presence.",
+        "DHUTECH provides professional website design, landing page creation, and SEO optimization services to enhance your online presence.",
+    icons: {
+        icon: "/favicon.ico",
+    },
+    openGraph: {
+        title: "DHUTECH",
+        description:
+            "Innovative solutions for website design, landing pages, and SEO optimization.",
+        url: "https://dhutech.com",
+        siteName: "DHUTECH",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "DHUTECH Solutions",
+            },
+        ],
+        locale: "vi_VN",
+        type: "website",
+    },
 };
 
 export default async function LocaleLayout({
@@ -52,16 +72,17 @@ export default async function LocaleLayout({
         console.error("Error loading messages:", error);
         notFound();
     }
+    const fontClass = localeRaw === "vi" ? lora.variable : playfair.variable;
 
     return (
-        <NextIntlClientProvider locale={localeRaw} messages={messages}>
-            <div
-                className={`${playfair.variable} ${lora.variable} font-lora  scroll-smooth`}
-            >
-                <main>{children}</main>
-                <ScrollToTopButton />
-                <Toaster position="top-right" theme="light" richColors />
-            </div>
-        </NextIntlClientProvider>
+        <html lang={localeRaw} className="scroll-smooth">
+            <body className={`${fontClass}`}>
+                <NextIntlClientProvider locale={localeRaw} messages={messages}>
+                    <main>{children}</main>
+                    <ScrollToTopButton />
+                    <Toaster position="top-right" theme="light" richColors />
+                </NextIntlClientProvider>
+            </body>
+        </html>
     );
 }

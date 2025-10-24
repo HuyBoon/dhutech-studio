@@ -43,7 +43,7 @@ const BannerSection = () => {
             itemType="https://schema.org/WebPageElement"
         >
             <div
-                className="mx-auto px-6 bg-center bg-cover lg:px-12 min-h-[650px] flex flex-col md:flex-row items-center justify-between gap-10 rounded-4xl overflow-hidden  animate-zoom "
+                className="mx-auto px-6 bg-center bg-cover lg:px-12 min-h-[650px] flex flex-col md:flex-row items-center justify-between gap-10 rounded-4xl overflow-hidden "
                 style={{ backgroundImage: "url('/banner-background2.svg')" }}
             >
                 <motion.div
