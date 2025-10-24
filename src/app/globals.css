@@ -428,7 +428,7 @@ body {
 
 .typing-multiline {
     display: inline-block;
-    white-space: pre-wrap; /* cho phép xuống dòng */
+    white-space: pre-wrap;
     overflow: hidden;
     border-right: 3px solid #1fc1c1;
     animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
